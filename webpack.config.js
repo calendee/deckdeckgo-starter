@@ -4,6 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 
 const DeckDeckGoInfoPlugin = require('./webpack.info.plugin');
+const DeckDeckGoMarkdownPlugin = require('deckdeckgo-webpack-markdown-plugin');
 
 const {GenerateSW} = require('workbox-webpack-plugin');
 
@@ -45,7 +46,8 @@ const plugins = [
         {from: 'src/robots.txt', to: ''},
         {from: 'node_modules/ionicons/dist/ionicons/svg/', to: 'svg'}
     ]),
-    new ProgressBarPlugin()
+    new ProgressBarPlugin(),
+    new DeckDeckGoMarkdownPlugin()
 ];
 
 module.exports = (env, argv) => {
