@@ -26,7 +26,7 @@
     "concurrently": "^4.1.0",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^2.0.0",
-    "deckdeckgo-webpack-markdown-plugin": "^1.0.0-alpha.2",
+    "deckdeckgo-webpack-markdown-plugin": "^1.0.0-alpha.3",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^4.0.0-beta.2",
     "lite-server": "^2.4.0",
