@@ -26,7 +26,6 @@
     "concurrently": "^4.1.0",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^2.1.0",
-    "deckdeckgo-webpack-markdown-plugin": "^1.0.0-alpha.4",
     "file-loader": "^3.0.1",
     "html-webpack-plugin": "^4.0.0-beta.2",
     "lite-server": "^2.4.0",
@@ -46,6 +45,7 @@
     "deckdeckgo-highlight-code": "^1.0.0-alpha.1",
     "deckdeckgo-qrcode": "^1.0.0-alpha.1",
     "deckdeckgo-remote": "^1.0.0-alpha.3",
+    "deckdeckgo-webpack-markdown-plugin": "^1.0.0-alpha.5",
     "ionicons": "^4.5.1"
   },
   "keywords": [
