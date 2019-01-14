@@ -26,7 +26,7 @@ Cherry on the cake 🍒🎂 [DeckDeckGo] comes with its [Progressive Web App](ht
 
 ## Stater Kit
 
-This project is the starter kit of [DeckDeckGo]. Visit the main project [repo](https://github.com/fluster/deckdeckgo) to learn more about how to use the tool and edit your presentation.
+This project is the starter kit of [DeckDeckGo]. Visit the main project [repo](https://github.com/deckgo/deckdeckgo) to learn more about how to use the tool and edit your presentation.
 
 ## Getting Started
 
@@ -42,11 +42,11 @@ To prepare your slides and content for your talk, you would have two options res
  
 ### HTML
 
-Edit `src/index.html`, add a `<deckgo-deck>` elements containing your [slides](https://github.com/fluster/deckdeckgo/doc/slides/slides.md).
+Edit `src/index.html`, add a `<deckgo-deck>` elements containing your [slides](https://github.com/deckgo/deckdeckgo/doc/slides/slides.md).
 
 ### Markdown
 
-Edit `src/index.md` and add your [slides](https://github.com/fluster/deckdeckgo/doc/slides/slides.md). These will be automatically added at build time to the `<deckgo-deck>` elements of the `index.html` file. 
+Edit `src/index.md` and add your [slides](https://github.com/deckgo/deckdeckgo/doc/slides/slides.md). These will be automatically added at build time to the `<deckgo-deck>` elements of the `index.html` file. 
 
 ## Theming
 
@@ -54,7 +54,7 @@ Theming a [DeckDeckGo] presentation is easy and quick.
 
 You could use the [Ionic Color Generator](https://beta.ionicframework.com/docs/theming/color-generator) to select the colors of your choice, `copy` the generated CSS variables, `parse` them into `src/css/variables.css` and voilà you have defined the overall theme 😁
 
-For more customization have a look the documentation of each [slides](https://github.com/fluster/deckdeckgo/doc/slides/slides.md).
+For more customization have a look the documentation of each [slides](https://github.com/deckgo/deckdeckgo/doc/slides/slides.md).
 
 ## Development
 
@@ -84,11 +84,11 @@ npm run build
 
 Before your final build and before deploying online your slides, don't forget to edit the information regarding your presentation in the following files:
 
-* Edit the meta tags in the `<head/>` of [src/index.html](https://github.com/fluster/deckdeckgo/blob/master/src/index.html)
+* Edit the meta tags in the `<head/>` of [src/index.html](https://github.com/deckgo/deckdeckgo/blob/master/src/index.html)
 
-* Generate your favicons and replace the respective files in the [assets](https://github.com/fluster/deckdeckgo/blob/master/assets/) folder. For that purpose I suggest you to use the real great tool [RealFaviconGenerator](https://realfavicongenerator.net) 
+* Generate your favicons and replace the respective files in the [assets](https://github.com/deckgo/deckdeckgo/blob/master/assets/) folder. For that purpose I suggest you to use the real great tool [RealFaviconGenerator](https://realfavicongenerator.net) 
 
-* Update your information in the [manifest.json](https://github.com/fluster/deckdeckgo/blob/master/src/manifest.json) file
+* Update your information in the [manifest.json](https://github.com/deckgo/deckdeckgo/blob/master/src/manifest.json) file
 
 ## Design and logo
 
