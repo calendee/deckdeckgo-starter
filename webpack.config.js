@@ -3,8 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 
-const DeckDeckGoInfoPlugin = require('./webpack.info.plugin');
-const DeckDeckGoMarkdownPlugin = require('deckdeckgo-webpack-markdown-plugin');
+const {DeckDeckGoInfoPlugin, DeckDeckGoRemoveNotesPlugin, DeckDeckGoMarkdownPlugin} = require('deckdeckgo-webpack-plugins');
 
 const {GenerateSW} = require('workbox-webpack-plugin');
 
@@ -59,6 +58,10 @@ module.exports = (env, argv) => {
     if (argv.mode === 'production') {
         plugins.push(new GenerateSW());
         plugins.push(new DeckDeckGoInfoPlugin());
+
+        if (!argv.notes) {
+            plugins.push(new DeckDeckGoRemoveNotesPlugin());
+        }
     }
 
     config.plugins = plugins;
@@ -92,3 +95,4 @@ module.exports = (env, argv) => {
 
     return config;
 };
+
