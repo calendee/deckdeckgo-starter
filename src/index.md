@@ -4,10 +4,8 @@
 
 ### {{DECKDECKGO_DESCRIPTION}}
 
---- title
+--- title style="--background: var(--ion-color-dark); --color: var(--ion-color-light);"
 
 ## Happy editing 😁
 
-[DeckDeckGo](https://deckdeckgo.com) is free and open source 🎁
-
-Find the documentation, the options, information about "editing" and templates in the DeckDeckGo's [Github](https://github.com/deckgo/deckdeckgo) repo
+Dive deeper with the [Getting Started guide](https://docs.deckdeckgo.com/docs)
